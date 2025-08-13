@@ -1,0 +1,51 @@
+Stockify
+├── config
+│   └── db.js
+├── controllers
+│   ├── alertController.js
+│   ├── authController.js
+│   ├── dashboardController.js
+│   ├── dfg
+│   ├── invoiceController.js
+│   ├── materiaPrimaController.js
+│   ├── movimientoInventarioController.js
+│   ├── orderController.js
+│   ├── productController.js
+│   ├── productionController.js
+│   ├── reportController.js
+│   ├── transactionController.js
+│   └── userController.js
+├── middleware
+│   ├── auth.js
+│   ├── authorize.js
+│   └── validate.js
+├── models
+│   ├── Alert.js
+│   ├── Invoice.js
+│   ├── MateriaPrima.js
+│   ├── MovimientoInventario.js
+│   ├── Order.js
+│   ├── Product.js
+│   ├── Production.js
+│   ├── Transaction.js
+│   └── User.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── routes
+│   ├── alerts.js
+│   ├── auth.js
+│   ├── dashboard.js
+│   ├── invoices.js
+│   ├── materiaPrima.js
+│   ├── movimientosInventario.js
+│   ├── orders.js
+│   ├── production.js
+│   ├── products.js
+│   ├── reports.js
+│   ├── transactions.js
+│   └── users.js
+├── server.js
+└── utils
+    ├── emailService.js
+    └── scheduler.js
